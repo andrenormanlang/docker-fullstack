@@ -1,27 +1,27 @@
 
-# User Management Application
+# User Management Application 📋
 
-## Overview
+## Overview 📝
 
 This application is a user management system with a frontend built using React and Next.js, and a backend using Express and Prisma. The application allows for creating, reading, updating, and deleting users. The database used is PostgreSQL, and Docker is used for containerization.
 
-## Table of Contents
+## Table of Contents 📚
 
-1. [Frontend Setup](#frontend-setup)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [File Structure](#file-structure)
-2. [Backend Setup](#backend-setup)
-    - [Installation](#installation-1)
-    - [Usage](#usage-1)
-    - [File Structure](#file-structure-1)
-3. [Database Setup](#database-setup)
-4. [Docker Setup](#docker-setup)
-5. [Environment Variables](#environment-variables)
+1. [Frontend Setup](#frontend-setup) 💻
+    - [Installation](#installation) 📥
+    - [Usage](#usage) 🚀
+    - [File Structure](#file-structure) 🗂️
+2. [Backend Setup](#backend-setup) 🛠️
+    - [Installation](#installation-1) 📥
+    - [Usage](#usage-1) 🚀
+    - [File Structure](#file-structure-1) 🗂️
+3. [Database Setup](#database-setup) 🗄️
+4. [Docker Setup](#docker-setup) 🐳
+5. [Environment Variables](#environment-variables) 🌐
 
-## Frontend Setup
+## Frontend Setup 💻
 
-### Installation
+### Installation 📥
 
 1. Navigate to the `frontend` directory:
 
@@ -35,7 +35,7 @@ This application is a user management system with a frontend built using React a
     npm install
     ```
 
-### Usage
+### Usage 🚀
 
 1. Start the development server:
 
@@ -55,7 +55,7 @@ This application is a user management system with a frontend built using React a
     npm start
     ```
 
-### File Structure
+### File Structure 🗂️
 
 - `components/CardComponent.tsx`: Card component for displaying user information.
 - `pages/_app.tsx`: Custom App component to initialize pages.
@@ -63,9 +63,9 @@ This application is a user management system with a frontend built using React a
 - `pages/index.tsx`: Main page component where the user management functionality is implemented.
 - `styles/globals.css`: Global styles.
 
-## Backend Setup
+## Backend Setup 🛠️
 
-### Installation
+### Installation 📥
 
 1. Navigate to the `backend` directory:
 
@@ -79,7 +79,7 @@ This application is a user management system with a frontend built using React a
     npm install
     ```
 
-### Usage
+### Usage 🚀
 
 1. Start the server:
 
@@ -87,12 +87,12 @@ This application is a user management system with a frontend built using React a
     node index.js
     ```
 
-### File Structure
+### File Structure 🗂️
 
 - `index.js`: Main server file where Express server and routes are defined.
 - `prisma/schema.prisma`: Prisma schema file for database modeling.
 
-## Database Setup
+## Database Setup 🗄️
 
 This application uses PostgreSQL as the database. The Prisma ORM is used for database interactions.
 
@@ -103,7 +103,7 @@ This application uses PostgreSQL as the database. The Prisma ORM is used for dat
     npx prisma migrate dev --name init
     ```
 
-## Docker Setup
+## Docker Setup 🐳
 
 To run the application using Docker, ensure Docker is installed on your machine and follow these steps:
 
@@ -116,7 +116,7 @@ To run the application using Docker, ensure Docker is installed on your machine 
 
 This will start the frontend, backend, and PostgreSQL database in separate containers.
 
-## Environment Variables
+## Environment Variables 🌐
 
 Create a `.env` file in the `backend` directory with the following content:
 

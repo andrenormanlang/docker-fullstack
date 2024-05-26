@@ -1,0 +1,13 @@
+While on backend folder:
+docker compose -up -d backend
+
+docker exec -it backend npx prisma migrate dev --name init
+
+docker exec -it db psql -U postgres
+
+While on frontend folder:
+docker compose -up -d backend
+
+On the main folder
+docker exec -it db psql -U postgres
+
